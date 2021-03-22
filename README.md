@@ -18,3 +18,6 @@ docker ps
 
 docker exec -it django bash
 
+// Login To Postgresql Database
+
+docker exec -it pgdb psql -U postgres
